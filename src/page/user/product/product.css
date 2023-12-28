@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.d-block {
+  height: 600px;
+  width: 100%;
+  object-fit: hidden;
+}
+.card img {
+  /* height: 300px; */
+  object-fit: cover;
+}
+
+h1 {
+  text-align: center;
+}
+.total-product{
+  color: rgb(29, 203, 203);
+}
+
+.seach-product {
+  margin: 30px auto;
+  background-color: rgb(148, 197, 226);
+  width: 40%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.seach-product input {
+  background-color: white;
+  border:  1px solid rgb(55, 52, 52);
+  outline: none;
+  width: 100%;
+  padding: 5px;
+
+  border-radius: 5px 0 0 5px;
+}
+.seach-product button {
+  width: 25%;
+  border: none;
+  outline: none;
+  background-color: #007bff;
+  border-radius: 0 5px 5px 0;
+  color: white;
+  padding: 5px;
+}
+.seach-product button:hover {
+  background-color:#0056b3
+}
+
+.card-img {
+  position: relative;
+  overflow: hidden;
+ 
+}
+
+.btn-img {
+  display: flex;
+  align-items: center;
+}
+
+.buy-now,
+.view-now {
+  display: inline-block;
+  /* padding: 8px 16px;  */
+  margin: 5; /* Đảm bảo không có margin giữa chúng */
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #fff; /* Màu chữ của nút */
+  background-color: #007bff; /* Màu nền của nút */
+  border: 1px solid #007bff; /* Viền của nút */
+  border-radius: 4px; 
+  transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền */
+
+  /* Đồng đều kích thước cho cả hai nút */
+  flex: 1;
+}
+
+.buy-now:hover,
+.view-now:hover {
+  background-color: #0056b3; /* Màu nền khi di chuột qua nút */
+  border-color: #0056b3; /* Viền khi di chuột qua nút */
+}
+.card:hover .btn-img {
+  bottom: 0px;
+}
+.card-img:hover {
+  filter: opacity(80%);
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.album-seach {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin: 20px 50px;
+}
+.album-seach p {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.btn-img i {
+  color: white;
+}
+
+.card-body p {
+  margin: 0;
+}
+.card-text {
+  color: rgb(245, 5, 5);
+  text-align: center;
+  /* position: absolute; */
+  /* margin-top: 30px; */
+  font-size: 1.3em;
+  font-weight: 500;
+  /* bottom: 0px;
+  left: 40px; */
+}
+.home-trasport {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  margin: 50px 0;
+}
+.home-trasport h6 {
+  background-color: rgb(219, 174, 90);
+  width: 80%;
+  padding: 10px 0;
+  border-radius: 5px;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+.home-trasport p {
+  color: rgb(28, 155, 155);
+}
+.modal-body {
+  display: flex;
+  width: 100%;
+}
+.album-product {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  min-width: 400px;
+}
+@media (max-width: 800px) {
+  .album-product {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 1000px) {
+  .album-product {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .album-product {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

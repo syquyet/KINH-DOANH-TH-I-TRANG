@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+.pay-container {
+  margin: 100px 0;
+  padding: 0 50px;
+
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+.pay-container p {
+  margin: 5px 0;
+}
+.pay-address * {
+  width: 90%;
+  outline: none;
+  padding: 2px 5px;
+}
+.pay-product table {
+  width: 100%;
+}
+.pay-product table tr {
+  border-bottom: 1px solid rgb(158, 135, 135);
+}
+.pay-product table tr td {
+  padding: 5px 0;
+}
+
+.pay-product {
+  border: 1px solid rgb(170, 141, 141);
+  padding: 10px;
+  background-color: rgb(207, 236, 236);
+  /* box-shadow: 1px 2px 4px rgb(186, 112, 78); */
+  border-radius: 5px;
+}
+.pay-address-city {
+  display: flex;
+}
+.pay-product button {
+  margin: 20px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(190, 62, 62);
+  color: white;
+}
+.pay-product-btn {
+  text-align: center;
+}
+.pay-table-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.pay-address p{
+  color: red;
+}

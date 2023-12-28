@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+/* .order-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+  }
+  .manage_order-input input {
+    width: 70%;
+    border: none;
+    background-color: rgb(232, 241, 241);
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  .manage_order-input button {
+    width: 15%;
+    border: none;
+    background-color: rgb(99, 99, 230);
+    color: white;
+    border-radius: 0 5px 5px 0;
+    object-fit: none;
+    padding: 0 3px;
+  }
+  .list-order {
+    width: 100%;
+  
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(232, 241, 241);
+    text-align: center;
+  }
+  
+  .list-order th {
+    background-color: blueviolet;
+    color: white;
+  }
+  .list-order .btn-delete {
+    width: 20%;
+    border: none;
+    background-color: rgb(208, 60, 60);
+    border-radius: 5px;
+    color: white;
+    margin-right: 5px;
+  }
+  .list-order tr {
+    border-bottom: 1px solid rgb(189, 220, 220);
+  }
+  .list-order tr td {
+    padding: 5px 0;
+  }
+  .list-order .btn-edit {
+    width: 30%;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+    margin-right: 5px;
+  }
+  .list-order .btn-detail {
+    width: 30%;
+    border: none;
+    background-color: rgb(191, 88, 88);
+    border-radius: 5px;
+    color: white;
+    margin-right: 5px;
+  }
+  .manage_order-input .btn-add {
+    width: 13%;
+    border: none;
+    background-color: rgb(191, 88, 88);
+    color: white;
+    border-radius: 5px;
+    padding: 0 3px;
+  }
+  .manager-order {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    
+    border: 1px solid rgb(173, 198, 198);
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    margin: 30px;
+    position: relative;
+  }
+  nav {
+    justify-content: left;
+  }
+  .pagination * {
+    margin: 6px;
+  }
+  .pagination .active {
+    border: 1px solid black;
+  }
+  .pagination {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+  } */
+.order-container {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.manage_order-input input {
+  width: 50%;
+  border: none;
+  background-color: rgb(232, 241, 241);
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  margin: 0 auto;
+  padding: 2px 5px;
+
+}
+.manage_order-input button {
+  width: 10%;
+  border: none;
+  background-color: rgb(99, 99, 230);
+  color: white;
+  border-radius: 0 5px 5px 0;
+  object-fit: none;
+  padding: 2px 3px;
+}
+.list-order {
+  width: 100%;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(232, 241, 241);
+  text-align: center;
+}
+.list-order th {
+  background-color: blueviolet;
+  color: white;
+}
+.manager-order {
+  border: 1px solid rgb(173, 198, 198);
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+margin: 0 30px;
+  position: relative;
+}
+h3{
+    text-align: center;
+}
+.btn-detail {
+  width: 30px;
+  border: none;
+  background-color: rgb(68, 103, 216);
+  border-radius: 2px;
+  color: white;
+  margin-right: 5px;
+}

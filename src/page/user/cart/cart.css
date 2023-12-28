@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  height: 100%;
+  padding-top: 100px !important;
+  padding-bottom: 50px !important;
+}
+
+.cart-table-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.cart-table-content table tr {
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+.cart-table-content table tr {
+  border-bottom: 1px solid rgb(67, 58, 58);
+}
+
+.btn-size button {
+  margin: 0 5px;
+
+  border: 1px solid rgb(73, 66, 66);
+}
+.btn-quantity button {
+  width: 30px;
+  border: 1px solid rgb(73, 66, 66);
+  border: none;
+}
+.btn-quantity .btn-quantity-reduce:hover {
+  background-color: rgb(192, 203, 203);
+  transition: 0.2s ease-in-out;
+}
+.btn-quantity .btn-quantity-add:hover {
+  background-color: rgb(192, 203, 203);
+  transition: 0.2s ease-in-out;
+}
+.btn-quantity span {
+  padding: 0 15px;
+}
+.btn-quantity {
+  display: flex;
+  border: 1px solid rgb(150, 134, 134);
+  width: 100%;
+}
+.btn-delete {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: none;
+}
+.btn-delete i:hover {
+  background-color: rgb(173, 164, 147);
+  border-radius: 50%;
+}
+.cart-container {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  gap: 20px;
+  padding: 0 50px;
+}
+tr {
+  border-bottom: 1px solid rgb(53, 49, 49);
+}
+td {
+  padding: 10px 10px;
+}
+.back-product {
+  margin: 30px 10px;
+  padding: 0 10px;
+  border: none;
+  background-color: #007bff;
+
+  color: white;
+  border-radius: 5px;
+}
+.back-product:hover {
+  background-color: #0056b3;
+}
+.payment-now {
+  margin-top: 20px;
+  border: none;
+  background-color: #007bff;
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+}
+.payment-now:hover {
+  background-color: #0056b3;
+}
+.payment table {
+  width: 400px;
+}
+.payment table tr td {
+  width: 100%;
+}
+
+.cart-list_product a:hover {
+  border: 1px solid rgb(88, 70, 70);
+  color: rgb(88, 70, 70);
+}
+.cart-list_product {
+  border: 1px solid rgb(173, 198, 198);
+  border-radius: 5px;
+  padding: 20px 30px;
+  /* box-shadow: 1px 2px 4px rgb(186, 112, 78); */
+}
+.payment {
+  border: 1px solid rgb(173, 198, 198);
+  border-radius: 5px;
+  padding: 20px 30px;
+  /* box-shadow: 1px 2px 4px rgb(186, 112, 78); */
+  border-radius: 5px;
+}
