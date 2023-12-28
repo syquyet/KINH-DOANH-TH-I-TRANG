@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+.order-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.manage_order-input input {
+  width: 25%;
+  border: none;
+  background-color: rgb(232, 241, 241);
+  border-radius: 2px 0 0 2px;
+  outline: none;
+  padding: 5px 5px;
+}
+.manage_order-input button {
+  width: 10%;
+  border: none;
+  background-color: rgb(99, 99, 230);
+  color: white;
+  border-radius: 0 2px 2px 0;
+  object-fit: none;
+  padding: 5px 3px;
+}
+.list-order {
+  width: 100%;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(232, 241, 241);
+  text-align: center;
+}
+
+.list-order th {
+  background-color: blueviolet;
+  color: white;
+}
+.list-order .btn-delete {
+  width: 20%;
+  border: none;
+  background-color: rgb(68, 103, 216);
+  border-radius: 5px;
+  color: white;
+  margin-right: 5px;
+}
+.list-order tr {
+  border-bottom: 1px solid rgb(189, 220, 220);
+}
+.list-order tr td {
+  padding: 5px 0;
+}
+.list-order .btn-edit {
+  width: 30%;
+  border: none;
+  background-color: blueviolet;
+  border-radius: 2px;
+  color: white;
+  margin-right: 5px;
+}
+.list-order .btn-detail {
+  width: 30%;
+  border: none;
+  background-color: rgb(68, 103, 216);
+  border-radius: 2px;
+  color: white;
+  margin-right: 5px;
+}
+.manage_order-input .btn-add {
+  width: 10%;
+  border: none;
+  background-color: rgb(68, 103, 216);
+  color: white;
+  border-radius: 2px;
+  padding: 0 3px;
+}
+.manager-order {
+  border: 1px solid rgb(173, 198, 198);
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  margin: 30px;
+  position: relative;
+}
+nav {
+  justify-content: left;
+}
+.pagination * {
+  margin: 6px;
+}
+.pagination .active {
+  border: 1px solid black;
+}
+.pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+.btn-edit.disabled {
+  opacity: 0.5; /* Sử dụng thuộc tính opacity để làm mờ đi */
+  pointer-events: none; /* Ngăn chặn tương tác với button khi disabled */
+}

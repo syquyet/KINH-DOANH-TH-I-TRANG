@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+.customer-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.manage_users-input input {
+  width: 25%;
+  border: none;
+  background-color: rgb(232, 241, 241);
+  border-radius: 2px 0 0 2px;
+  outline: none;
+  padding: 5px ;
+}
+.manage_users-input button {
+  width: 10%;
+  border: none;
+  background-color: rgb(68, 103, 216);
+  color: white;
+  border-radius: 0 2px 2px 0;
+  object-fit: none;
+  padding: 5px 3px;
+}
+.list-users {
+  width: 100%;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(232, 241, 241);
+  text-align: center;
+}
+
+.list-users th {
+  background-color: blueviolet;
+  color: white;
+}
+.list-users button {
+  width: 40px;
+  border: none;
+  background-color: rgb(68, 103, 216);
+  border-radius: 2px;
+  color: white;
+}
+.list-users button:hover{
+  background-color: rgb(42, 66, 145);
+  
+}
+.list-users tr {
+  border-bottom: 1px solid rgb(189, 220, 220);
+}
+.list-users tr td {
+  padding: 5px 0;
+}
+.manage-user {
+  border: 1px solid rgb(173, 198, 198);
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 2px;
+  margin: 30px;
+  position: relative;
+}
+.pagination * {
+  margin: 6px;
+}
+.pagination .active {
+  border: 1px solid black;
+}
+.pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
